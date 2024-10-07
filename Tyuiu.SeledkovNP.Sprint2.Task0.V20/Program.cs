@@ -8,11 +8,11 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task0.V20
 
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #1 | Выполнил: Селедков Н. П. | Смартб-24-1";
+            Console.Title = "Спринт #2 | Выполнил: Селедков Н. П. | Смартб-24-1";
             //Длинна строки 75 символов
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Тема: Операции сравнения                                                *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #20                                                             *");
             Console.WriteLine("* Выполнил: Селедков Никита Павлович | Смартб-24-1                        *");
@@ -25,6 +25,9 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task0.V20
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+
+            //  ==,   !=,    <,    >,     <=,   >=
+            //  True, False, True, False, True, False
 
             int x, y;
             x = 1075;
