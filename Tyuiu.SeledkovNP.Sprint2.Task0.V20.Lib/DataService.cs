@@ -1,5 +1,4 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint1;
-using tyuiu.cources.programming.interfaces.Sprint2;
+﻿using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.SeledkovNP.Sprint2.Task0.V20.Lib
 {
@@ -7,7 +6,7 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task0.V20.Lib
     {
         public bool[] GetCompareOperations(int x, int y)
         {
-          
+
             bool[] result = new bool[6];
 
             result[0] = x == y + 800;
@@ -18,6 +17,7 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task0.V20.Lib
             result[5] = y >= x;
 
             return result;
+
         }
     }
 }
