@@ -29,8 +29,8 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task0.V20
             int x, y;
             x = 1075;
             y = 275;
-            bool[] result = new bool[6];
-            result = ds.GetCompareOperations(x, y);
+            bool[] res = new bool[6];
+            res = ds.GetCompareOperations(x, y);
 
             Console.WriteLine("X = " + x);
             Console.WriteLine("Y = " + y);
@@ -42,7 +42,7 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task0.V20
 
             for (int i = 0; i < 6; i++)
             {
-                Console.WriteLine(result[i]);
+                Console.WriteLine(res[i]);
                 Console.ReadKey();
             }
 

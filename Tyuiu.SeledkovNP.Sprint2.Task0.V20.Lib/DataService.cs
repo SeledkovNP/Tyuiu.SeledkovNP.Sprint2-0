@@ -6,17 +6,16 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task0.V20.Lib
     {
         public bool[] GetCompareOperations(int x, int y)
         {
+            bool[] res = new bool[6];
 
-            bool[] result = new bool[6];
+            res[0] = x == y + 800;
+            res[1] = x != 1075;
+            res[2] = y < x;
+            res[3] = x > y + 899;
+            res[4] = y + 800 <= x;
+            res[5] = y >= x;
 
-            result[0] = x == y + 800;
-            result[1] = x != 1075;
-            result[2] = y < x;
-            result[3] = y > x;
-            result[4] = y + 800 <= x;
-            result[5] = y >= x;
-
-            return result;
+            return res;
 
         }
     }
